@@ -1,69 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <title>Quiz</title>
-</head>
-<body>
- <div class="wrapper">
-    <div class="accordion">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="accordion">
         <div class="accordion-panel">
-            <h2 id="panel1-heading">
-                <button class="accordion-trigger" aria-controls="panel1-content" aria-expanded="true">
-                    <svg aria-hidden="true" class="accordion-icon">
-                        <use xlink:href="#boat"></use>
-                    </svg>
-                    <span id="panel1-title">Вопрос 1</span>
-                </button>
-            </h2>
-            <div class="accordion-content" id="panel1-content" aria-labelledby="panel1-heading" role="region">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum repellendus recusandae veritatis vel perferendis.</p>
-                <img class="accordion-image" src="#" alt="#">
-            </div>
+          <h2 id="panel1-heading">
+            <button class="accordion-trigger" aria-controls="panel1-content" aria-expanded="true">
+              <span class="accordion-title" id="panel1-title">Вопрос 1</span>
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#boat"></use>
+              </svg>
+            </button>
+          </h2>
+          <div class="accordion-content" id="panel1-content" aria-labelledby="panel1-heading" role="region">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum repellendus recusandae veritatis vel perferendis.</p>
+            <img class="accordion-image" src="./sacura.jpg" alt="sacura" />
+          </div>
         </div>
         <div class="accordion-panel">
-            <h2 id="panel2-heading">
-                <button class="accordion-trigger" aria-controls="panel2-content" aria-expanded="false">
-                    <svg aria-hidden="true" class="accordion-icon">
-                        <use xlink:href="#boat"></use>
-                    </svg>
-                    <span id="panel2-title">Вопрос 1</span>
-                </button>
-            </h2>
-            <div class="accordion-content" id="panel2-content" aria-labelledby="panel2-heading" role="region">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum repellendus recusandae veritatis vel perferendis.</p>
-                <img class="accordion-image" src="#" alt="#">
-            </div>
+          <h2 id="panel2-heading">
+            <button class="accordion-trigger" aria-controls="panel2-content" aria-expanded="false">
+              <span class="accordion-title" id="panel2-title">Вопрос 2</span>
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#boat"></use>
+              </svg>
+            </button>
+          </h2>
+          <div class="accordion-content" id="panel2-content" aria-labelledby="panel2-heading" role="region">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum repellendus recusandae veritatis vel perferendis.</p>
+            <img class="accordion-image" src="./sacura.jpg" alt="sacura" />
+          </div>
         </div>
         <div class="accordion-panel">
-            <h2 id="panel3-heading">
-                <button class="accordion-trigger" aria-controls="3-content" aria-expanded="false">
-                    <svg aria-hidden="true" class="accordion-icon">
-                        <use xlink:href="#boat"></use>
-                    </svg>
-                    <span id="panel3-title">Вопрос 1</span>
-                </button>
-            </h2>
-            <div class="accordion-content" id="panel3-content" aria-labelledby="panel3-heading" role="region">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum repellendus recusandae veritatis vel perferendis.</p>
-                <img class="accordion-image" src="#" alt="#">
-            </div>
+          <h2 id="panel3-heading">
+            <button class="accordion-trigger" aria-controls="panel3-content" aria-expanded="false">
+              <span class="accordion-title" id="panel3-title">Вопрос 3</span>
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#boat"></use>
+              </svg>
+            </button>
+          </h2>
+          <div class="accordion-content" id="panel3-content" aria-labelledby="panel3-heading" role="region">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum repellendus recusandae veritatis vel perferendis.</p>
+            <img class="accordion-image" src="./sacura.jpg" alt="sacura" />
+          </div>
         </div>
+        <div class="accordion-panel">
+          <h2 id="panel4-heading">
+            <button class="accordion-trigger" aria-controls="panel4-content" aria-expanded="false">
+              <span class="accordion-title" id="panel4-title">Вопрос 4</span>
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#boat"></use>
+              </svg>
+            </button>
+          </h2>
+          <div class="accordion-content" id="panel4-content" aria-labelledby="panel4-heading" role="region">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum repellendus recusandae veritatis vel perferendis.</p>
+            <img class="accordion-image" src="./sacura.jpg" alt="sacura" />
+          </div>
+        </div>
+        <div class="accordion-panel">
+          <h2 id="panel5-heading">
+            <button class="accordion-trigger" aria-controls="panel5-content" aria-expanded="false">
+              <span class="accordion-title" id="panel5-title">Вопрос 5</span>
+              <svg aria-hidden="true" class="accordion-icon">
+                <use xlink:href="#boat"></use>
+              </svg>
+            </button>
+          </h2>
+          <div class="accordion-content" id="panel5-content" aria-labelledby="panel5-heading" role="region">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat earum repellendus recusandae veritatis vel perferendis.</p>
+            <img class="accordion-image" src="./sacura.jpg" alt="sacura" />
+          </div>
+        </div>
+      </div>
     </div>
- </div>
- <svg width="0" height="0" class="hidden">
-    <symbol id="boat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-      <path fill="#bae0bd" d="M20,38.5C9.8,38.5,1.5,30.2,1.5,20S9.8,1.5,20,1.5S38.5,9.8,38.5,20S30.2,38.5,20,38.5z"></path>
-      <path fill="#5e9c76" d="M20,2c9.9,0,18,8.1,18,18s-8.1,18-18,18S2,29.9,2,20S10.1,2,20,2 M20,1C9.5,1,1,9.5,1,20s8.5,19,19,19	s19-8.5,19-19S30.5,1,20,1L20,1z"></path>
-      <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3" d="M11.2,20.1l5.8,5.8l13.2-13.2"></path>
-    </symbol>
-  </svg>
-</body>
+    <svg width="0" height="0" class="hidden">
+      <symbol id="boat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+        <path fill="#bae0bd" d="M20,38.5C9.8,38.5,1.5,30.2,1.5,20S9.8,1.5,20,1.5S38.5,9.8,38.5,20S30.2,38.5,20,38.5z"></path>
+        <path
+          fill="#5e9c76"
+          d="M20,2c9.9,0,18,8.1,18,18s-8.1,18-18,18S2,29.9,2,20S10.1,2,20,2 M20,1C9.5,1,1,9.5,1,20s8.5,19,19,19	s19-8.5,19-19S30.5,1,20,1L20,1z"
+        ></path>
+        <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3" d="M11.2,20.1l5.8,5.8l13.2-13.2"></path>
+      </symbol>
+    </svg>
+  </body>
 </html>
